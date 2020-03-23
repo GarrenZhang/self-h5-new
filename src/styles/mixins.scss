@@ -11,16 +11,6 @@
   height: $height;
 }
 
-@mixin minwh($width, $height) {
-  width: $width;
-  height: $height;
-}
-
-@mixin maxwh($width, $height) {
-  width: $width;
-  height: $height;
-}
-
 @mixin scw($size, $color: #333, $weight: 400) {
   font-size: $size;
   color: $color;
