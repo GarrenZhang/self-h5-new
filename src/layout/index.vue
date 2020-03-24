@@ -1,7 +1,9 @@
 <template>
   <div class="app-wrapper">
     <div class="app-top">这是预留的顶部区域</div>
-    <app-main />
+    <div class="app-main">
+      <app-main />
+    </div>
     <div class="app-footer">这是预留的footer区域</div>
   </div>
 </template>
@@ -35,5 +37,9 @@ export default {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+.app-main {
+  border: 1px dashed $color-common;
+  margin: 10px;
 }
 </style>

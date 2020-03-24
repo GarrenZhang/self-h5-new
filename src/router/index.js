@@ -11,7 +11,7 @@ export const routes = [
     children: [
       {
         path: '/redirect/:path(.*)',
-        component: () => import('@/pages/redirect')
+        component: () => import('@/pages/redirect/')
       }
     ]
   },

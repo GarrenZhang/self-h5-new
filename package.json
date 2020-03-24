@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fix": "eslint --fix --ext .js --ext .vue --ext .jsx src"
+    "fix": "eslint --fix --ext .js --ext .vue --ext .jsx src",
+    "new": "plop"
   },
   "dependencies": {
     "archiver": "^3.1.1",
@@ -34,6 +35,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "eslint-plugin-vue-libs": "^4.0.0",
     "node-sass": "^4.12.0",
+    "plop": "^2.6.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }
