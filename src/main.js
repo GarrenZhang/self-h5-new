@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import '@/permission'
+import '@/styles/index.scss'
 import store from './store'
 
 import Vant from 'vant'
